@@ -1,0 +1,12 @@
+﻿  Main.cpp
+c:\users\magshimim\source\repos\project2\project2\outstream.h(4): error C2011: 'msl::OutStream': 'class' type redefinition
+  c:\users\magshimim\source\repos\project2\project2\outstream.h(4): note: see declaration of 'msl::OutStream'
+c:\users\magshimim\source\repos\project2\project2\filestream.h(4): error C2504: 'msl::OutStream': base class undefined
+c:\users\magshimim\source\repos\project2\project2\main.cpp(7): error C2027: use of undefined type 'msl::OutStream'
+  c:\users\magshimim\source\repos\project2\project2\outstream.h(4): note: see declaration of 'msl::OutStream'
+c:\users\magshimim\source\repos\project2\project2\main.cpp(13): error C2664: 'msl::FileStream::FileStream(const msl::FileStream &)': cannot convert argument 1 from 'const char [9]' to 'char *'
+  c:\users\magshimim\source\repos\project2\project2\main.cpp(13): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\magshimim\source\repos\project2\project2\main.cpp(14): error C2676: binary '<<': 'msl::FileStream' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\magshimim\source\repos\project2\project2\main.cpp(15): error C2676: binary '<<': 'msl::FileStream' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\magshimim\source\repos\project2\project2\main.cpp(16): error C2676: binary '<<': 'msl::FileStream' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\magshimim\source\repos\project2\project2\main.cpp(17): error C2676: binary '<<': 'msl::FileStream' does not define this operator or a conversion to a type acceptable to the predefined operator
